@@ -7,16 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F7C639B551419B2ABBE9E00 /* libPods-LOTL_ed1UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBFFD58254B3C43ABDE22CF /* libPods-LOTL_ed1UITests.a */; };
+		2D92D3CFC445C0BBC46FA010 /* libPods-LOTL_ed1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D708AD509783748795453AB /* libPods-LOTL_ed1Tests.a */; };
+		50A296E34A9B49DCBAD59F89 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1A8F01A1F3FBA8D79E5F94 /* libPods-OneSignalNotificationServiceExtension.a */; };
+		5611BCD62366482C00B3D851 /* snow2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5611BCD52366482C00B3D851 /* snow2.gif */; };
+		5664E6DD2391F923001E7B42 /* ProgramsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5664E6DC2391F923001E7B42 /* ProgramsController.swift */; };
+		56766B01237621650027DE23 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56766B00237621650027DE23 /* NotificationService.swift */; };
+		56766B05237621650027DE23 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 56766AFE237621640027DE23 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		56766B1223790FCF0027DE23 /* lotlgifgood.gif in Resources */ = {isa = PBXBuildFile; fileRef = 56766B1123790FCE0027DE23 /* lotlgifgood.gif */; };
 		5684426722A063DF00808DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684426622A063DF00808DB7 /* AppDelegate.swift */; };
-		5684426922A063DF00808DB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684426822A063DF00808DB7 /* ViewController.swift */; };
 		5684426C22A063DF00808DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5684426A22A063DF00808DB7 /* Main.storyboard */; };
 		5684426E22A063E000808DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5684426D22A063E000808DB7 /* Assets.xcassets */; };
 		5684427122A063E000808DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5684426F22A063E000808DB7 /* LaunchScreen.storyboard */; };
 		5684427C22A063E000808DB7 /* LOTL_ed1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684427B22A063E000808DB7 /* LOTL_ed1Tests.swift */; };
 		5684428722A063E000808DB7 /* LOTL_ed1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684428622A063E000808DB7 /* LOTL_ed1UITests.swift */; };
+		5684429522A0688600808DB7 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684429422A0688600808DB7 /* HomeController.swift */; };
+		5684429722A0689900808DB7 /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684429622A0689900808DB7 /* AboutController.swift */; };
+		5684429922A068B700808DB7 /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684429822A068B700808DB7 /* InformationController.swift */; };
+		5684429B22A068C800808DB7 /* SecurityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684429A22A068C800808DB7 /* SecurityController.swift */; };
+		5684429D22A068EC00808DB7 /* FAQController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684429C22A068EC00808DB7 /* FAQController.swift */; };
+		56A17A6C237A353E007B2D84 /* AccessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A17A6B237A353E007B2D84 /* AccessController.swift */; };
+		56A17A6E237B5DC0007B2D84 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A17A6D237B5DC0007B2D84 /* Swift+Gif.swift */; };
+		56AE915C22F4D0E200E274AA /* ENormsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AE915B22F4D0E200E274AA /* ENormsController.swift */; };
+		56CE1B9722AABDF7007761DD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CE1B9622AABDF7007761DD /* AVFoundation.framework */; };
+		56CE1B9922AABDFC007761DD /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CE1B9822AABDFC007761DD /* AVKit.framework */; };
+		9EC49430F5A3BC09F41EE0D7 /* libPods-LOTL_ed1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 788DAAF7504D32C87E71CB8C /* libPods-LOTL_ed1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		56766B03237621650027DE23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5684425B22A063DF00808DB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56766AFD237621640027DE23;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
 		5684427822A063E000808DB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5684425B22A063DF00808DB7 /* Project object */;
@@ -33,10 +58,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		56766B06237621650027DE23 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				56766B05237621650027DE23 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		5684426322A063DF00808DB7 /* LOTL_ed1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTL_ed1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC3F0484498AE1A46ACEB31 /* Pods-LOTL_ed1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTL_ed1UITests.debug.xcconfig"; path = "Target Support Files/Pods-LOTL_ed1UITests/Pods-LOTL_ed1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CBFFD58254B3C43ABDE22CF /* libPods-LOTL_ed1UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LOTL_ed1UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3F32A33D880D27633AE927 /* Pods-LOTL_ed1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTL_ed1Tests.release.xcconfig"; path = "Target Support Files/Pods-LOTL_ed1Tests/Pods-LOTL_ed1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3A1A8F01A1F3FBA8D79E5F94 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE5CA70BD4EF6D759525B73 /* Pods-LOTL_ed1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTL_ed1Tests.debug.xcconfig"; path = "Target Support Files/Pods-LOTL_ed1Tests/Pods-LOTL_ed1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5611BCD52366482C00B3D851 /* snow2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = snow2.gif; path = ../../../../Downloads/snow2.gif; sourceTree = "<group>"; };
+		5664E6DC2391F923001E7B42 /* ProgramsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramsController.swift; sourceTree = "<group>"; };
+		56766AFE237621640027DE23 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		56766B00237621650027DE23 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		56766B02237621650027DE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56766B0A237650D10027DE23 /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		56766B1123790FCE0027DE23 /* lotlgifgood.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = lotlgifgood.gif; path = ../../../../Downloads/lotlgifgood.gif; sourceTree = "<group>"; };
+		5684426322A063DF00808DB7 /* LOTL 2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LOTL 2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5684426622A063DF00808DB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5684426822A063DF00808DB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5684426B22A063DF00808DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5684426D22A063E000808DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5684427022A063E000808DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,13 +97,43 @@
 		5684428222A063E000808DB7 /* LOTL_ed1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LOTL_ed1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5684428622A063E000808DB7 /* LOTL_ed1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTL_ed1UITests.swift; sourceTree = "<group>"; };
 		5684428822A063E000808DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5684429422A0688600808DB7 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		5684429622A0689900808DB7 /* AboutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
+		5684429822A068B700808DB7 /* InformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
+		5684429A22A068C800808DB7 /* SecurityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityController.swift; sourceTree = "<group>"; };
+		5684429C22A068EC00808DB7 /* FAQController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQController.swift; sourceTree = "<group>"; };
+		56A17A6B237A353E007B2D84 /* AccessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessController.swift; sourceTree = "<group>"; };
+		56A17A6D237B5DC0007B2D84 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		56AE915B22F4D0E200E274AA /* ENormsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENormsController.swift; sourceTree = "<group>"; };
+		56B54F6422D3C468002D7555 /* LOTL_ed1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LOTL_ed1.entitlements; sourceTree = "<group>"; };
+		56CE1B9622AABDF7007761DD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		56CE1B9822AABDFC007761DD /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		56CE1B9C22AEF251007761DD /* LOTL_ed1-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LOTL_ed1-BridgingHeader.h"; sourceTree = "<group>"; };
+		5C348A1769CBC2FFD1ED17A6 /* Pods-LOTL_ed1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTL_ed1.release.xcconfig"; path = "Target Support Files/Pods-LOTL_ed1/Pods-LOTL_ed1.release.xcconfig"; sourceTree = "<group>"; };
+		690C60C3ACFD9DB34F2876BD /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		6D708AD509783748795453AB /* libPods-LOTL_ed1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LOTL_ed1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		788DAAF7504D32C87E71CB8C /* libPods-LOTL_ed1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LOTL_ed1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBC03F737D3A9594D69D31D /* Pods-LOTL_ed1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTL_ed1.debug.xcconfig"; path = "Target Support Files/Pods-LOTL_ed1/Pods-LOTL_ed1.debug.xcconfig"; sourceTree = "<group>"; };
+		A110DEB2C66E9774FEE5A848 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		DE9292FD233258DDB1FCE0C9 /* Pods-LOTL_ed1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOTL_ed1UITests.release.xcconfig"; path = "Target Support Files/Pods-LOTL_ed1UITests/Pods-LOTL_ed1UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		56766AFB237621640027DE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A296E34A9B49DCBAD59F89 /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5684426022A063DF00808DB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56CE1B9922AABDFC007761DD /* AVKit.framework in Frameworks */,
+				56CE1B9722AABDF7007761DD /* AVFoundation.framework in Frameworks */,
+				9EC49430F5A3BC09F41EE0D7 /* libPods-LOTL_ed1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D92D3CFC445C0BBC46FA010 /* libPods-LOTL_ed1Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,28 +149,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7C639B551419B2ABBE9E00 /* libPods-LOTL_ed1UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5611BCD02366460200B3D851 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				56766B1123790FCE0027DE23 /* lotlgifgood.gif */,
+				5611BCD52366482C00B3D851 /* snow2.gif */,
+			);
+			path = Gifs;
+			sourceTree = "<group>";
+		};
+		56766AFF237621650027DE23 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				56766B0A237650D10027DE23 /* OneSignalNotificationServiceExtension.entitlements */,
+				56766B00237621650027DE23 /* NotificationService.swift */,
+				56766B02237621650027DE23 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
 		5684425A22A063DF00808DB7 = {
 			isa = PBXGroup;
 			children = (
 				5684426522A063DF00808DB7 /* LOTL_ed1 */,
 				5684427A22A063E000808DB7 /* LOTL_ed1Tests */,
 				5684428522A063E000808DB7 /* LOTL_ed1UITests */,
+				56766AFF237621650027DE23 /* OneSignalNotificationServiceExtension */,
 				5684426422A063DF00808DB7 /* Products */,
+				56CE1B9522AABDF7007761DD /* Frameworks */,
+				8DB1688FE7C0DE51558D6F0E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		5684426422A063DF00808DB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5684426322A063DF00808DB7 /* LOTL_ed1.app */,
+				5684426322A063DF00808DB7 /* LOTL 2019.app */,
 				5684427722A063E000808DB7 /* LOTL_ed1Tests.xctest */,
 				5684428222A063E000808DB7 /* LOTL_ed1UITests.xctest */,
+				56766AFE237621640027DE23 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,8 +202,19 @@
 		5684426522A063DF00808DB7 /* LOTL_ed1 */ = {
 			isa = PBXGroup;
 			children = (
+				56B54F6422D3C468002D7555 /* LOTL_ed1.entitlements */,
 				5684426622A063DF00808DB7 /* AppDelegate.swift */,
-				5684426822A063DF00808DB7 /* ViewController.swift */,
+				5684429422A0688600808DB7 /* HomeController.swift */,
+				5684429622A0689900808DB7 /* AboutController.swift */,
+				56A17A6B237A353E007B2D84 /* AccessController.swift */,
+				5611BCD02366460200B3D851 /* Gifs */,
+				5684429A22A068C800808DB7 /* SecurityController.swift */,
+				5684429822A068B700808DB7 /* InformationController.swift */,
+				56AE915B22F4D0E200E274AA /* ENormsController.swift */,
+				5664E6DC2391F923001E7B42 /* ProgramsController.swift */,
+				56A17A6D237B5DC0007B2D84 /* Swift+Gif.swift */,
+				56CE1B9C22AEF251007761DD /* LOTL_ed1-BridgingHeader.h */,
+				5684429C22A068EC00808DB7 /* FAQController.swift */,
 				5684426A22A063DF00808DB7 /* Main.storyboard */,
 				5684426D22A063E000808DB7 /* Assets.xcassets */,
 				5684426F22A063E000808DB7 /* LaunchScreen.storyboard */,
@@ -125,30 +241,80 @@
 			path = LOTL_ed1UITests;
 			sourceTree = "<group>";
 		};
+		56CE1B9522AABDF7007761DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56CE1B9822AABDFC007761DD /* AVKit.framework */,
+				56CE1B9622AABDF7007761DD /* AVFoundation.framework */,
+				788DAAF7504D32C87E71CB8C /* libPods-LOTL_ed1.a */,
+				6D708AD509783748795453AB /* libPods-LOTL_ed1Tests.a */,
+				2CBFFD58254B3C43ABDE22CF /* libPods-LOTL_ed1UITests.a */,
+				3A1A8F01A1F3FBA8D79E5F94 /* libPods-OneSignalNotificationServiceExtension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DB1688FE7C0DE51558D6F0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FBC03F737D3A9594D69D31D /* Pods-LOTL_ed1.debug.xcconfig */,
+				5C348A1769CBC2FFD1ED17A6 /* Pods-LOTL_ed1.release.xcconfig */,
+				3FE5CA70BD4EF6D759525B73 /* Pods-LOTL_ed1Tests.debug.xcconfig */,
+				2D3F32A33D880D27633AE927 /* Pods-LOTL_ed1Tests.release.xcconfig */,
+				1EC3F0484498AE1A46ACEB31 /* Pods-LOTL_ed1UITests.debug.xcconfig */,
+				DE9292FD233258DDB1FCE0C9 /* Pods-LOTL_ed1UITests.release.xcconfig */,
+				690C60C3ACFD9DB34F2876BD /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				A110DEB2C66E9774FEE5A848 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5684426222A063DF00808DB7 /* LOTL_ed1 */ = {
+		56766AFD237621640027DE23 /* OneSignalNotificationServiceExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5684428B22A063E000808DB7 /* Build configuration list for PBXNativeTarget "LOTL_ed1" */;
+			buildConfigurationList = 56766B09237621650027DE23 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
 			buildPhases = (
-				5684425F22A063DF00808DB7 /* Sources */,
-				5684426022A063DF00808DB7 /* Frameworks */,
-				5684426122A063DF00808DB7 /* Resources */,
+				F713582A4B0D4DF789A3ACC8 /* [CP] Check Pods Manifest.lock */,
+				56766AFA237621640027DE23 /* Sources */,
+				56766AFB237621640027DE23 /* Frameworks */,
+				56766AFC237621640027DE23 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 56766AFE237621640027DE23 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5684426222A063DF00808DB7 /* LOTL_ed1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5684428B22A063E000808DB7 /* Build configuration list for PBXNativeTarget "LOTL_ed1" */;
+			buildPhases = (
+				E845E3416A11D04DCDE64071 /* [CP] Check Pods Manifest.lock */,
+				5684425F22A063DF00808DB7 /* Sources */,
+				5684426022A063DF00808DB7 /* Frameworks */,
+				5684426122A063DF00808DB7 /* Resources */,
+				56766B06237621650027DE23 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56766B04237621650027DE23 /* PBXTargetDependency */,
+			);
 			name = LOTL_ed1;
 			productName = LOTL_ed1;
-			productReference = 5684426322A063DF00808DB7 /* LOTL_ed1.app */;
+			productReference = 5684426322A063DF00808DB7 /* LOTL 2019.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5684427622A063E000808DB7 /* LOTL_ed1Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5684428E22A063E000808DB7 /* Build configuration list for PBXNativeTarget "LOTL_ed1Tests" */;
 			buildPhases = (
+				9E841B70A114B81AC919DF16 /* [CP] Check Pods Manifest.lock */,
 				5684427322A063E000808DB7 /* Sources */,
 				5684427422A063E000808DB7 /* Frameworks */,
 				5684427522A063E000808DB7 /* Resources */,
@@ -167,6 +333,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5684429122A063E000808DB7 /* Build configuration list for PBXNativeTarget "LOTL_ed1UITests" */;
 			buildPhases = (
+				ACF205CCEA439641607C224C /* [CP] Check Pods Manifest.lock */,
 				5684427E22A063E000808DB7 /* Sources */,
 				5684427F22A063E000808DB7 /* Frameworks */,
 				5684428022A063E000808DB7 /* Resources */,
@@ -187,12 +354,20 @@
 		5684425B22A063DF00808DB7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Lighting of the Lawn";
 				TargetAttributes = {
+					56766AFD237621640027DE23 = {
+						CreatedOnToolsVersion = 11.2;
+					};
 					5684426222A063DF00808DB7 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					5684427622A063E000808DB7 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -220,18 +395,28 @@
 				5684426222A063DF00808DB7 /* LOTL_ed1 */,
 				5684427622A063E000808DB7 /* LOTL_ed1Tests */,
 				5684428122A063E000808DB7 /* LOTL_ed1UITests */,
+				56766AFD237621640027DE23 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		56766AFC237621640027DE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5684426122A063DF00808DB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5684427122A063E000808DB7 /* LaunchScreen.storyboard in Resources */,
 				5684426E22A063E000808DB7 /* Assets.xcassets in Resources */,
+				56766B1223790FCF0027DE23 /* lotlgifgood.gif in Resources */,
 				5684426C22A063DF00808DB7 /* Main.storyboard in Resources */,
+				5611BCD62366482C00B3D851 /* snow2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +436,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9E841B70A114B81AC919DF16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LOTL_ed1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF205CCEA439641607C224C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LOTL_ed1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E845E3416A11D04DCDE64071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LOTL_ed1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F713582A4B0D4DF789A3ACC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		56766AFA237621640027DE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56766B01237621650027DE23 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5684425F22A063DF00808DB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5684426922A063DF00808DB7 /* ViewController.swift in Sources */,
+				5684429B22A068C800808DB7 /* SecurityController.swift in Sources */,
+				56A17A6C237A353E007B2D84 /* AccessController.swift in Sources */,
+				56AE915C22F4D0E200E274AA /* ENormsController.swift in Sources */,
 				5684426722A063DF00808DB7 /* AppDelegate.swift in Sources */,
+				56A17A6E237B5DC0007B2D84 /* Swift+Gif.swift in Sources */,
+				5684429D22A068EC00808DB7 /* FAQController.swift in Sources */,
+				5684429522A0688600808DB7 /* HomeController.swift in Sources */,
+				5684429722A0689900808DB7 /* AboutController.swift in Sources */,
+				5664E6DD2391F923001E7B42 /* ProgramsController.swift in Sources */,
+				5684429922A068B700808DB7 /* InformationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +572,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		56766B04237621650027DE23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56766AFD237621640027DE23 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 56766B03237621650027DE23 /* PBXContainerItemProxy */;
+		};
 		5684427922A063E000808DB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5684426222A063DF00808DB7 /* LOTL_ed1 */;
@@ -312,6 +609,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		56766B07237621650027DE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 690C60C3ACFD9DB34F2876BD /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77XP5646MW;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightingofthelawn.LOTL2019.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		56766B08237621650027DE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A110DEB2C66E9774FEE5A848 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77XP5646MW;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightingofthelawn.LOTL2019.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		5684428922A063E000808DB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -430,40 +773,59 @@
 		};
 		5684428C22A063E000808DB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBC03F737D3A9594D69D31D /* Pods-LOTL_ed1.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LOTL_ed1/LOTL_ed1.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77XP5646MW;
 				INFOPLIST_FILE = LOTL_ed1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "LOTLUVA.LOTL-ed1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightingofthelawn.LOTL2019;
+				PRODUCT_NAME = "LOTL 2019";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LOTL_ed1/LOTL_ed1-BridgingHeader.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5684428D22A063E000808DB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C348A1769CBC2FFD1ED17A6 /* Pods-LOTL_ed1.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LOTL_ed1/LOTL_ed1.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 77XP5646MW;
 				INFOPLIST_FILE = LOTL_ed1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "LOTLUVA.LOTL-ed1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lightingofthelawn.LOTL2019;
+				PRODUCT_NAME = "LOTL 2019";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LOTL_ed1/LOTL_ed1-BridgingHeader.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		5684428F22A063E000808DB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE5CA70BD4EF6D759525B73 /* Pods-LOTL_ed1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +846,7 @@
 		};
 		5684429022A063E000808DB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3F32A33D880D27633AE927 /* Pods-LOTL_ed1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +867,7 @@
 		};
 		5684429222A063E000808DB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC3F0484498AE1A46ACEB31 /* Pods-LOTL_ed1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +887,7 @@
 		};
 		5684429322A063E000808DB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9292FD233258DDB1FCE0C9 /* Pods-LOTL_ed1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +908,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		56766B09237621650027DE23 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56766B07237621650027DE23 /* Debug */,
+				56766B08237621650027DE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5684425E22A063DF00808DB7 /* Build configuration list for PBXProject "LOTL_ed1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
